@@ -24,8 +24,7 @@ Simple easy React Accordion
 
 ## Demo
 
-Check out the live example at https://rottitime.github.io/react-accordion/?path=/docs/configure-your-project--docs
-
+Check out the live example at https://rottitime.github.io/react-accordion/?path=/docs/accordion--docs
 
 ## Getting Started
 
@@ -40,8 +39,6 @@ npm install @rottitime/react-accordion
 ```
 
 ### Usage
-
-
 
 ```jsx
 import React from 'react'
@@ -71,8 +68,6 @@ Feel free to explore, contribute, and make the most out of GovUK Design React. T
 ---
 
 If you have any questions or need further assistance, please don't hesitate to reach out via our [GitHub issues](https://github.com/rottitime/react-accordion/issues) page.
-
-
 
 ---
 
