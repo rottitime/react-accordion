@@ -28,8 +28,6 @@ Check out the live example at https://rottitime.github.io/react-accordion/?path=
 
 ## Getting Started
 
-Ready to dive in? Here's a quick guide to get you up and running with GovUK Design React.
-
 ### Installation
 
 Install the library via npm or yarn:
@@ -56,14 +54,6 @@ Check out our [storybook documentation](https://rottitime.github.io/react-accord
 ## Contributing
 
 We welcome contributions from the community! If you'd like to contribute, please check out our [contributing guidelines](https://github.com/rottitime/react-accordion/blob/main/CONTRIBUTING.md) for more information on how to get started.
-
-## License
-
-GovUK Design React is open source and licensed under the [MIT License](https://github.com/rottitime/react-accordion/blob/main/LICENSE).
-
----
-
-Feel free to explore, contribute, and make the most out of GovUK Design React. Together, we can build better and more accessible web applications for everyone. Happy coding! 🎉
 
 ---
 
