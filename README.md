@@ -72,5 +72,3 @@ If you have any questions or need further assistance, please don't hesitate to r
 ---
 
 If you have any questions or need further assistance, please don't hesitate to reach out via our [GitHub issues](https://github.com/rottitime/react-accordion/issues) page.
-
-- Terms and conditions for non Gov sites: https://www.gov.uk/service-manual/design/making-your-service-look-like-govuk#if-your-service-isnt-on-govuk
