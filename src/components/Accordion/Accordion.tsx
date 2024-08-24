@@ -1,16 +1,35 @@
-import type { ComponentProps } from 'react'
+import { createElement, Fragment, useId } from 'react'
+import type { Props } from './types'
 
-type Props = {
-  title: string
-} & ComponentProps<'details'>
+export default function Accordion({ headingLevel = 1, list, ...props }: Props) {
+  const id = useId()
 
-export default function Accordion({ title, className, children, ...props }: Props) {
   return (
-    <details className={`govuk-details ${className || ''}`.trim()} {...props}>
-      <summary className="govuk-details__summary">
-        <span className="govuk-details__summary-text">{title}</span>
-      </summary>
-      <div className="govuk-details__text">{children}</div>
-    </details>
+    <div {...props}>
+      {list.map(({ title, content, open }, i) => {
+        const headId = `${id}-${i}`
+        const sectId = `sect${i + 1}`
+        const isOpen = !!open
+        return (
+          <Fragment key={title}>
+            {createElement(
+              `h${headingLevel}`,
+              {},
+              <button
+                type="button"
+                aria-expanded={isOpen}
+                aria-controls={sectId}
+                id={headId}
+              >
+                {title}
+              </button>
+            )}
+            <div id={sectId} role="region" aria-labelledby={headId} hidden={!isOpen}>
+              {content}
+            </div>
+          </Fragment>
+        )
+      })}
+    </div>
   )
 }
