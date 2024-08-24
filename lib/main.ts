@@ -1,4 +1,2 @@
-
-
-export { default as Details } from '@/components/Details/Accordion'
-
+export { default as Accordion } from '@/components/Accordion/Accordion'
+export { theme } from '@/theme'

@@ -24,7 +24,8 @@ export const Primary: Story = {
     headingLevel: 2,
     list: [...Array(3).keys()].map((i) => ({
       title: `Accordion ${i + 1}`,
-      content: `Content ${i + 1}`
+      content: `Content ${i + 1}`,
+      open: i === 0
     }))
   }
 }
