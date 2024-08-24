@@ -1,16 +1,9 @@
-<p align="center">
-  <a href="https://github.com/rottitime/react-accordion">
-    <img src="https://rottitime.github.io/react-accordion/doc/logo.webp" alt="logo for React Govuk Design System " width="400" />
-  </a>
-</p>
-
-# React Govuk Design System
+# React Accordion
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Demo](#demo)
-- [Benefits](#benefits)
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -20,25 +13,19 @@
 
 ## Introduction
 
-Welcome to **GovUK Design React**, the ultimate library for integrating the UK Government Design System with React! 🚀
+Simple easy React Accordion
 
-Are you a React developer tired of reinventing the wheel to comply with the UK Government's design standards? Look no further! GovUK Design React is here to save you time and effort by providing pre-built, accessible, and fully customizable React components based on the GovUK Design System.
+- Default theme (optional)
+- Unstyled React accordion components
+- WAI-ARIA compliant
+- Keyboard navigation enabled
+- Animation support
+- Ability to expand/collapse specific items or all items
 
 ## Demo
 
 Check out the live example at https://rottitime.github.io/react-accordion/?path=/docs/configure-your-project--docs
 
-## Benefits
-
-By using GovUK Design React, you'll enjoy:
-
-- 💡 **Proven Design**: Powered by [GovUK Design System](https://design-system.service.gov.uk/), which goes through user testing, has the best accessibility, and is fully responsive.
-- ⏱️ **Time Savings**: No need to create components from scratch—get up and running quickly with pre-built components.
-- ♿ **Accessibility**: Components are designed to meet the highest accessibility standards, ensuring your application is usable by everyone.
-- 🎨 **Consistency**: Maintain design consistency with the UK Government Design System across all your projects.
-- 🛠️ **Customization**: Easily customize components to fit your specific needs without compromising on design standards.
-- ✅ **Testing and Linting**: Built-in unit tests and linting ensure code quality and reliability.
-- 📚 **Live Documentation**: Interactive [storybook documentation](https://rottitime.github.io/react-accordion/?path=/story/details--primary) lets you see components in action and experiment with different configurations.
 
 ## Getting Started
 
@@ -54,17 +41,14 @@ npm install @rottitime/react-accordion
 
 ### Usage
 
-Using GovUK Design React is as simple as importing the components you need and integrating them into your React application:
+
 
 ```jsx
 import React from 'react'
-import { Button } from '@rottitime/react-accordion'
+import Accordion, { theme } from '@rottitime/react-accordion'
 
 const App = () => (
-  <div>
-    <h1>Hello, GovUK Design React!</h1>
-    <Button>Click me</Button>
-  </div>
+// tbc
 )
 
 export default App
@@ -88,20 +72,7 @@ Feel free to explore, contribute, and make the most out of GovUK Design React. T
 
 If you have any questions or need further assistance, please don't hesitate to reach out via our [GitHub issues](https://github.com/rottitime/react-accordion/issues) page.
 
----
 
-## Related Links
-
-Here are some helpful links related to GovUK Design React:
-
-- [GovUK Design System](https://design-system.service.gov.uk/): Official website for the UK Government Design System.
-- [Storybook Documentation](https://rottitime.github.io/react-accordion/?path=/story/details--primary): Live examples and comprehensive guides on using each component.
-- [Package](https://www.npmjs.com/package/@rottitime/react-accordion): NPM Package
-- [Contributing Guidelines](https://github.com/rottitime/react-accordion/blob/main/CONTRIBUTING.md): Learn how to contribute to the project.
-- [License](https://github.com/rottitime/react-accordion/blob/main/LICENSE): View the license details for GovUK Design React.
-- [Terms and Conditions for Non-Gov Sites](https://www.gov.uk/service-manual/design/making-your-service-look-like-govuk#if-your-service-isnt-on-govuk): Guidelines for non-government sites on making their service look like GovUK.
-
-Feel free to explore these resources for more information about GovUK Design React and its related components.
 
 ---
 
