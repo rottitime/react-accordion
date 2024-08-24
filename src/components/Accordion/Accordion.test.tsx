@@ -1,11 +1,10 @@
-import { render, screen } from '@testing-library/react'
-import Details from './Accordion'
+// import { render, screen } from '@testing-library/react'
+// import Details from './Accordion'
 
 describe('Details', () => {
   it('renders the summary', () => {
-    
     expect(true).toBeTruthy()
-  }
+  })
   // it('renders the summary and content', () => {
   //   render(
   //     <Details title="Click me">
