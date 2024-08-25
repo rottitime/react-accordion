@@ -49,7 +49,9 @@ const App = () => (
 export default App
 ```
 
-Check out our [storybook documentation](https://rottitime.github.io/react-accordion/?path=/story/details--primary) for live examples and comprehensive guides on how to use each component.
+## Out of scope
+
+- Opening multiple accordion sections at once
 
 ## Contributing
 
