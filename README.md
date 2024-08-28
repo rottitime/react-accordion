@@ -95,7 +95,9 @@ The `<ThemeProvider>` can take a prop called `theme` with the following value:
 
 ## Exercise
 
-## CI Pipeline
+This package was created as part of a coding exercise
+
+## Focus
 
 - Auto-generated pull request description
 - Versioning
