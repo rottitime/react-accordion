@@ -103,6 +103,9 @@ The `<ThemeProvider>` can take a prop called `theme` with the following value:
 - Keyboard usage
 - Theme file with fallback
 - Global theme file for dark/light mode
+- Theme config type setup
+  - Avoid Enums
+  - Recycle existing const object
 - CSS split into global (for future components) and component-based
 - CSS animation examples
 - Unit tests
@@ -117,9 +120,9 @@ The `<ThemeProvider>` can take a prop called `theme` with the following value:
 
 ### Out of scope/ Future release 
 
-- Opening multiple accordion sections at once #9
-- Extra animation on expanding/collpasing #8
-- Bug: Fix types on rollout #7
+- Opening multiple accordion sections at once [#9](https://github.com/rottitime/react-accordion/issues/9)
+- Extra animation on expanding/collpasing [#9](https://github.com/rottitime/react-accordion/issues/8)
+- Bug: Fix types on rollout [#9](https://github.com/rottitime/react-accordion/issues/7)
 
 ## Contributing
 
