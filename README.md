@@ -115,9 +115,11 @@ The `<ThemeProvider>` can take a prop called `theme` with the following value:
   - Linting check
   - Storybook deployment
 
-### Out of scope
+### Out of scope/ Future release 
 
-- Opening multiple accordion sections at once
+- Opening multiple accordion sections at once #9
+- Extra animation on expanding/collpasing #8
+- Bug: Fix types on rollout #7
 
 ## Contributing
 
