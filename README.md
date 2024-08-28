@@ -93,7 +93,29 @@ The `<ThemeProvider>` can take a prop called `theme` with the following value:
 }
 ```
 
-## Out of scope
+## Exercise
+
+## CI Pipeline
+
+- Auto-generated pull request description
+- Versioning
+- Accessibility tags
+- Keyboard usage
+- Theme file with fallback
+- Global theme file for dark/light mode
+- CSS split into global (for future components) and component-based
+- CSS animation examples
+- Unit tests
+- Linting
+- Prettier
+- VS Code extension list
+- CI pipeline
+  - Deploy versioning
+  - Unit test check
+  - Linting check
+  - Storybook deployment
+
+### Out of scope
 
 - Opening multiple accordion sections at once
 
