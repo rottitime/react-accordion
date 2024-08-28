@@ -30,3 +30,7 @@ const theme = {
 } as const
 
 export default theme
+
+type ValuesType = keyof typeof theme
+
+export type RecordDefaultTheme = Record<ValuesType, string>

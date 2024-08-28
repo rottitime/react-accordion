@@ -4,36 +4,20 @@ import type { Props } from './types'
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
-
   :root {
     color-scheme: light dark;
   }
-
-
 
   body {
     font-family: ${(p) => p.theme.fontFamily};
     font-size: ${(p) => p.theme.fontSize};
     color: light-dark(${(p) => p.theme.textLight}, ${(p) => p.theme.textDark});
-    background-color: light-dark(
-      ${(p) => p.theme.backgroundLight},
-      ${(p) => p.theme.backgroundDark}
-    );
     line-height: 1.75;
   }
 
   :is(h1, h2, h3, h4, h5, h6) {
     font-weight: ${(p) => p.theme.fontWeightBold};
   }
-
-
-    
-
-
-  
-
-
-  
 
 `
 
