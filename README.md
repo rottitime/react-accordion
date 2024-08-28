@@ -1,3 +1,10 @@
+<p align="center">
+  <a href="https://github.com/rottitime/govuk-design-react">
+    <img src="https://rottitime.github.io/govuk-design-react/doc/logo.png" alt="logo for React Govuk Design System " width="400" />
+  </a>
+</p>
+
+
 # React Accordion
 
 ## Table of Contents
