@@ -1,5 +1,11 @@
 # @rottitime/react-accordion
 
+## 1.1.0
+
+### Minor Changes
+
+- 988d948: Toggle feature
+
 ## 1.0.0
 
 ### Major Changes
