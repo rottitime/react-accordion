@@ -1,2 +1,3 @@
 export { default as Accordion } from '@/components/Accordion/Accordion'
-export { theme } from '@/theme'
+export { default as ThemeProvider } from '@/components/ThemeProvider/ThemeProvider'
+export { default as theme } from '@/theme'
