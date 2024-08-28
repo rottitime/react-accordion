@@ -1,5 +1,11 @@
 # @rottitime/react-accordion
 
+## 1.2.0
+
+### Minor Changes
+
+- 9ac0df1: documentation update for npm page
+
 ## 1.1.0
 
 ### Minor Changes
