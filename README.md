@@ -39,14 +39,58 @@ npm install @rottitime/react-accordion
 ### Usage
 
 ```jsx
-import React from 'react'
-import Accordion, { theme } from '@rottitime/react-accordion'
+import { ThemeProvider, Accordion } from '@rottitime/react-accordion'
 
-const App = () => (
-// tbc
-)
+export default function App() {
+  return (
+    <ThemeProvider>
+      <Accordion
+        list={[
+          { title: 'Title 1', content: 'Content 1' },
+          { title: 'Title 2', content: 'Content 2' },
+          { title: 'Title 3', content: 'Content 3' }
+        ]}
+      />
+    </ThemeProvider>
+  )
+}
+```
 
-export default App
+### Customise theme
+
+The `<ThemeProvider>` can take a prop called `theme` with the following value:
+
+```javascript
+{
+  backgroundLight: string,
+  backgroundDark: string,
+  textLight: string,
+  textDark: string,
+  primaryLight: string,
+  primaryDark: string,
+  secondaryLight: string,
+  secondaryDark: string,
+  accentLight: string,
+  accentDark: string,
+  errorLight: string,
+  errorDark: string,
+  warningLight: string,
+  warningDark: string,
+  infoLight: string,
+  infoDark: string,
+  successLight: string,
+  successDark: string,
+  fontFamily: string,
+  fontSize: string,
+  fontWeightNormal: string,
+  fontWeightBold: string,
+  spacingSmall: string,
+  spacingMedium: string,
+  spacingLarge: string,
+  borderRadiusSmall: string,
+  borderRadiusMedium: string,
+  borderRadiusLarge: string
+}
 ```
 
 ## Out of scope
