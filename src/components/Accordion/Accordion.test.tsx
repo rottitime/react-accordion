@@ -19,12 +19,17 @@ describe('Accordion', () => {
 
   it('toggles the accordion item when clicked', () => {
     render(<Accordion list={list} />)
+    expect(screen.getByText('Content 1')).toBeVisible()
 
     // Click on the first accordion item
     fireEvent.click(screen.getByText('Title 1'))
 
     // Assert that the first item is now open
-    expect(screen.getByText('Content 1')).toBeVisible()
+    expect(screen.getByText('Content 1')).not.toBeVisible()
+  })
+
+  it('shows the next accordion item when clicked', () => {
+    render(<Accordion list={list} />)
 
     // Click on the second accordion item
     fireEvent.click(screen.getByText('Title 2'))
