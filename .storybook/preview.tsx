@@ -1,16 +1,18 @@
 import type { Preview } from '@storybook/react'
 import { INITIAL_VIEWPORTS, MINIMAL_VIEWPORTS } from '@storybook/addon-viewport'
 import React from 'react'
+import ThemeProvider from '../src/components/ThemeProvider/ThemeProvider'
 
 // import CSSBaseline from '../src/components/CssBaseline/CssBaseline'
-
 
 const preview: Preview = {
   tags: ['autodocs'],
   decorators: [
     (Story) => (
       <div style={{ padding: '3em' }}>
-        <Story />
+        <ThemeProvider>
+          <Story />
+        </ThemeProvider>
       </div>
     )
   ],

@@ -5,13 +5,20 @@ import Arrow from '../Arrow/Arrow'
 
 const Wrapper = styled.div`
   --ac-padding: 20px;
+  font-size: ${(p) => p.theme.fontSize};
+
   .heading {
     display: flex;
-    border: 1px solid #ccc;
+    border: 1px solid light-dark(${(p) => p.theme.textLight}, ${(p) => p.theme.textDark});
+    background-color: light-dark(
+      ${(p) => p.theme.backgroundLight},
+      ${(p) => p.theme.backgroundDark}
+    );
     justify-content: space-between;
     align-items: center;
-    border-radius: 10px;
+    border-radius: ${(p) => p.theme.borderRadiusMedium};
     margin: 0;
+
     button {
       border: 0;
       padding: var(--ac-padding);
@@ -19,6 +26,8 @@ const Wrapper = styled.div`
       background-color: transparent;
       text-align: left;
       flex-grow: 1;
+      font-size: ${(p) => p.theme.fontSize};
+      font-weight: inherit;
 
       &[aria-expanded='true'] + svg {
         transform: rotate(180deg);
@@ -27,12 +36,16 @@ const Wrapper = styled.div`
     svg {
       transition: all 0.3s ease-out;
       margin-right: var(--ac-padding);
+      font-size: 35px;
     }
   }
 
   [role='region'] {
     padding: var(--ac-padding);
-    background-color: #f9f9f9;
+    background-color: ${(p) => p.theme.backgroundLight};
+    @media (prefers-color-scheme: dark) {
+      background-color: color-mix(in oklab, ${(p) => p.theme.backgroundDark} 75%, white);
+    }
   }
 `
 
