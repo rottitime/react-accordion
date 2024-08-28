@@ -78,7 +78,7 @@ export default function Accordion({
                   aria-controls={sectId}
                   id={headId}
                   onClick={() => {
-                    setOpened(i)
+                    setOpened((p) => (p === i ? -1 : i))
                   }}
                 >
                   {title}
